@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cryptobase</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <!-- Sidebar -->
+    <nav class="sidebar d-flex flex-column align-items-start px-2 d-md-none" id="sidebar">
+      <hr class="hr-primary">
+      <ul class="navbar-nav d-flex flex-column mt-4 px-2 w-100">
+        <li class="nav-item w-100">
+          <a href="" class="nav-link text-light login">
+              <!-- LOGIN -->
+            <div class="flex flex-col align-items-center justify-content-center w-100 px-auto">
+                <div class="py-4 w-50 mx-auto px-auto d-flex justify-content-center"> 
+                    <span class="fa fa-user-circle"></span>
+                </div>
+                
+                <div class="d-block text-center"><span class="fa fa-sign-in"></span> Login</div>
+            </div>  
+          </a>
+          <hr>
+        </li>
+        <li class="nav-item w-100">
+            <a href="" class="nav-link text-light"><span class="fa fa-info-circle"></span> About Us</a>
+        </li>
+        <li class="nav-item w-100">
+            <a href="" class="nav-link text-light"><span class="fa fa-briefcase"></span> Investment Plans</a>
+        </li>
+        <li class="nav-item w-100">
+            <a href="" class="nav-link text-light"><span class="fa fa-question-circle"></span> FAQ</a>
+        </li>
+        <li class="nav-item w-100">
+            <a href="" class="nav-link text-light"><span class="fa fa-phone"></span> Contact</a>
+        </li>
+      </ul>
+
+      <hr>
+
+    </nav>
+
+
+    <section class="main-content" id="main-content">
+
+        <!-- Navbar -->
+      <nav class="navbar sticky-top navbar-expand navbar-lightt" id="navbar"> 
+        <div class="container">          
+          <a class="navbar-brand fs-3" href="index.html">
+              <img src="images/logo.png" alt="logo" class="img-fluid logo">
+              <span>Cryptobase</span>
+          </a>
+        
+          <!-- sidebar toggler -->
+          <div class="animated-icon d-md-none" id="menu-btn-main"><span></span><span></span><span></span></div>
+
+          <div class="d-none d-md-flex flex-row">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a href="" class="nav-link"><span class="fa fa-info-circle"></span> About Us</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"><span class="fa fa-briefcase"></span> <div class="d-none d-lg-inline-block">Investment </div> Plans</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"><span class="fa fa-question-circle"></span> FAQ</a></li>
+                  <li class="nav-item"><a href="" class="nav-link"><span class="fa fa-phone"></span> Contact</a></li>
+              </ul>
+          </div>       
+        </div>
+      </nav>
+
+      <section class="jumbotron">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                    <div class="jumbotron-header d-flex align-items-center">
+                        <div>
+                            <h3>Get up to 16% ROI daily!</h3>
+                            <h2 class="">This marks the end of FIAT money as we know it.</h2>
+                            <p> Leverage today on the power of crypto-currency and turn the table.</p>
+                            <div class="flex flex-row">
+                                <button class="btn btn-primary">
+                                <span class="fa fa-sign-in"></span> Login
+                                </button>
+                                <button class="btn btn-dark ml-4">
+                                <span class="fa fa-pencil"></span>  Sign-up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="flex align-items-center">
+                      <embed src="./images/coins.svg" class="img-fluid  coins" alt="">
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info d-flex align-items-center">
+          <div class="container">
+              <div class="row">
+                  <div class="d-none d-md-flex col-md-6 align-items-center my-4">
+                      <img src="./images/basic3.jpg" class="img-fluid" alt="">                      
+                  </div>
+                  <div class="col-md-6 d-flex align-items-center">
+                      <p class="">
+                        <strong>Up to +16% daily return on investment!</strong> Our trade engine which has won multiple industry awards is not just trained and configured to transform market movements into profits, it also avoids loss to the extreme in times of low volatily and liquidity. We stand today to give you the best investment experience with less risk and greater reward. Cryptobase.best ...........you first!
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="slider container py-4 px-4 d-flex align-items-center justify-content-center">
+          <div>
+              <h4 class="text-center">Did you know?</h4>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>The fundamental design of bitcoin is that it can't be banned , it can only be regulated</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p>At present, 16.3 million have already been mined and are being traded. The last bitcoin will be mined in 2140. After that,no newbitcoin can be mined.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p>initially when bitcoins were mined they were virtually worthlessas it cost literally cents to buy a BTC. But it was untill 22 May 2010, when someone purchased something with bitcoins and that was 10,000 BTC for pizza</p>
+                  </div>
+                </div>
+              </div>   
+          </div>
+      </section>
+
+      <section class="plans">
+          <div class="container">
+              <h3 class="py-4">Investment Plans</h3>
+              <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                      <div class="tile">
+                          <h4>Regular</h4>
+                          <p class="text-center"><span class="percentage">15%</span></p>
+                          <div class="hr mx-auto"></div>
+                          <ul>
+                              <li>After 60 Hours</li>
+                              <li>Min: $20</li>
+                              <li>Max: $99</li>
+                              <li>✔️ Instant Withdrawal</li>
+                          </ul>
+                          <a href="">Invest Now</a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="tile">
+                        <h4>Standard</h4>
+                        <p class="text-center"><span class="percentage">30%</span></p>
+                        <div class="hr mx-auto"></div>
+                        <ul>
+                            <li>After 72 Hours</li>
+                            <li>Min: $200</li>
+                            <li>Max: $999</li>
+                            <li>✔️ Instant Withdrawal</li>
+                        </ul>
+                        <a href="">Invest Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="tile">
+                        <h4>Ultimate</h4>
+                        <p class="text-center"><span class="percentage">60%</span></p>
+                        <div class="hr mx-auto"></div>
+                        <ul>
+                            <li>After 84 Hours</li>
+                            <li>Min: $1000</li>
+                            <li>Max: $50000</li>
+                            <li>✔️ Instant Withdrawal</li>
+                        </ul>
+                        <a href="">Invest Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="tile">
+                        <h4>V I P</h4>
+                        <p class="text-center"><span class="percentage">70%</span></p>
+                        <div class="hr mx-auto"></div>
+                        <ul>
+                            <li>After 72 Hours</li>
+                            <li>Min: $50000</li>
+                            <li>Max: ∞</li>
+                            <li>✔️ Instant Withdrawal</li>
+                        </ul>
+                        <a href="">Invest Now</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Calculator -->
+      <section class="returns">
+          <div class="container">
+              <div class="row">
+                  <div class="d-none d-md-block col-md-2">
+                    <div class="d-flex align-items-center calc">
+                        <span class="fa fa-calculator"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-10 col-lg-8">
+                      <h3><span class="fa fa-calculator d-md-none"></span> Returns Calculator</h3>
+                      <div class="row">
+                          <div class="col-md-4 py-4 px-2">
+                              <label for="amount">Amount: </label>
+                              <input type="number" id="amount" value="" placeholder="Enter Amount">
+                          </div>
+                          <div class="col-md-4 py-4 px-2">
+                              <label for="investment-plan">Investment Plan:</label>
+                              <select class="form-select" aria-label="Default select example">
+                                <option selected>Regular</option>
+                                <option value="">Standard</option>
+                                <option value="">Ultimate</option>
+                                <option value="">V I P</option>
+                              </select>                          
+                          </div>
+                          <div class="col-md-4 py-4 px-4">
+                            <label for="profit">Total Profit</label>
+                            <div id="profit">$15</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="d-none d-lg-flex col-lg-2 align-items-center">
+                      <div class="rounded-tile">
+                        <h5>Total Profit:</h5>
+                        <p class="text-center">$15</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- INVESTORS TABLE -->
+      <section class="investors">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                    <h4>LATEST DEPOSITS</h4>
+                    <table class="table text-center">
+                        <tbody>
+                          <tr class="coloured head">
+                            <td>Username</td>
+                            <td>Rank</td>
+                            <td>Amount($)</td>
+                          </tr>
+                          <tr>
+                            <td>Princess</td>
+                            <td>Ultimate</td>
+                            <td>3000</td>
+                          </tr>
+                          <tr class="coloured">
+                            <td>Magaret</td>
+                            <td>Regular</td>
+                            <td>700</td>
+                          </tr>
+                          <tr>
+                            <td>Linco</td>
+                            <td>Standard</td>
+                            <td>340</td>
+                          </tr>
+                          <tr class="coloured">
+                            <td>Kingz</td>
+                            <td>Ultimate</td>
+                            <td>45000</td>
+                          </tr>
+                          <tr>
+                            <td>Nicole</td>
+                            <td>Standard</td>
+                            <td>500</td>
+                          </tr>
+                        </tbody>
+                      </table>                      
+                  </div>
+                  <div class="col-lg-6">
+                    <h4>LATEST WITHDRAWALS</h4>
+                    <table class="table text-center">
+                        <tbody>
+                          <tr class="coloured head">
+                            <td>Username</td>
+                            <td>Rank</td>
+                            <td>Amount($)</td>
+                          </tr>
+                          <tr>
+                            <td>Laura</td>
+                            <td>Ultimate</td>
+                            <td>4000</td>
+                          </tr>
+                          <tr class="coloured">
+                            <td>Oman</td>
+                            <td>Regular</td>
+                            <td>105</td>
+                          </tr>
+                          <tr>
+                            <td>Sera Clint</td>
+                            <td>Ultimate</td>
+                            <td>14000</td>
+                          </tr>
+                          <tr class="coloured">
+                            <td>Matthew</td>
+                            <td>Ultimate</td>
+                            <td>2500</td>
+                          </tr>
+                          <tr>
+                            <td>Ericastro</td>
+                            <td>Regular</td>
+                            <td>47</td>
+                          </tr>
+                        </tbody>
+                      </table>                      
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- ADVANTAGES SECTION -->
+      <section class="advantages">
+          <div class="container">
+              <div class="row py-4">
+                  <div class="col-md-4">
+                      <div class="d-flex align-items-center">
+                          <div class="">
+                              <span class="fa fa-check"></span>
+                              24/7 Customer Support
+                          </div>
+                      </div>
+                  </div>
+                  
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <span class="fa fa-check"></span>
+                            Customer Confidentiality
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <span class="fa fa-check"></span>
+                            Regulated by FSDA
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row py-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <span class="fa fa-check"></span>
+                            High Security
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="d-flex align-items-center">
+                      <div class="">
+                          <span class="fa fa-check"></span>
+                          Qualified Staff Personnel
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="d-flex align-items-center">
+                      <div class="">
+                          <span class="fa fa-check"></span>
+                          Investment Risk Insurance
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+        <!-- STAFF -->
+      <section class="team">
+          <div class="container py-4">
+              <h3 class="text-center">The A-Team</h3>
+              <div class="row py-1">
+                  <div class="col-6 col-md-4 col-lg-2">
+                      <div class="tile text-center">
+                          <img src="./images/admin3.jpg" alt="CEO" class="rounded-circle img-thumbnail img-fluid">
+                          <h5>Logan Chris</h5>
+                          <p>CEO/Codeveloper</p>
+                          <a href="">
+                            <span class="fa fa-linkedin"></span>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tile text-center">
+                        <img src="./images/admin5.jpg" alt="CEO" class="rounded-circle img-thumbnail img-fluid">
+                        <h5>James Gilbert</h5>
+                        <p>Cheif developer</p>
+                        <a href="">
+                          <span class="fa fa-linkedin"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tile text-center">
+                        <img src="./images/admin2.jpg" alt="CEO" class="rounded-circle img-thumbnail img-fluid">
+                        <h5>Damian C. V</h5>
+                        <p>Technical Analyst</p>
+                        <a href="">
+                          <span class="fa fa-linkedin"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tile text-center">
+                        <img src="./images/admin1.jpg" alt="CEO" class="rounded-circle img-thumbnail img-fluid">
+                        <h5>Mary Ann</h5>
+                        <p>Customer Relations</p>
+                        <a href="">
+                          <span class="fa fa-linkedin"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tile text-center">
+                        <img src="./images/admin4.jpg" alt="CEO" class="rounded-circle img-thumbnail img-fluid">
+                        <h5>Clement Joshua</h5>
+                        <p>Consultant</p>
+                        <a href="">
+                          <span class="fa fa-linkedin"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tile text-center">
+                        <img src="./images/admin6.jpg" alt="CEO" class="rounded-circle img-thumbnail img-fluid">
+                        <h5>Nelson Maroon</h5>
+                        <p>System Admin</p>
+                        <a href="">
+                          <span class="fa fa-linkedin"></span>
+                        </a>
+                    </div>
+                </div>  
+              </div>
+          </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+  <footer>
+      <div class="footer-hny py-5">
+          <div class="container py-lg-4">
+              <div class="sub-columns row justify-content-center">
+                  <div class="sub-one-left col-lg-4 col-md-6">
+                      <h6>HELP CENTER</h6>
+                      <p></span> FAQ</p>
+                      <p>About Us</p>
+                      <p>Terms and Conditions</p>
+                      <p>Privacy Policy</p>
+
+
+                  </div>
+                  <div class="sub-two-right col-lg-4 col-md-6 my-md-0 my-5">
+                      <h6>Quick links</h6>
+                      <div class="footer-hny-ul">
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="">About</a></li>
+                          <li><a href="">Investment Plans</a></li>
+                          <li><a href="">Contact & Support</a></li>
+                      </ul>
+                     </div>
+                  </div>
+
+              </div>
+            </div>
+           </div>
+          <div class="below-section">
+              <div class="container">
+                  <div class="copyright-footer row">
+                  <div class="columns col-lg-6">
+                      <ul class="social footer">
+                          <li><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+                          <li><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                          <li><a href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+                          <li><a href="#"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
+                          <li><a href="#"><span class="fa fa-youtube-play" aria-hidden="true"></span></a></li>
+                      </ul>
+                  </div>
+                  <div class="columns copy-right col-lg-6">
+                      <p class="font-weight-bold">© 2020 CRYPTOBASE.BEST </p>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <!-- //titels-5 -->
+       <!-- move top -->
+       <button onclick="topFunction()" id="movetop" title="Go to top">
+              <span class="fa fa-long-arrow-up"></span>
+      </button>
+
+  </footer>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
