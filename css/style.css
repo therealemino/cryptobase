@@ -424,9 +424,13 @@ footer {
     height: 25vh;
   }
 
-.jumbotron .jumbotron-header h2 {
+.jumbotron .jumbotron-header h4 {
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.jumbotron .jumbotron-header h3 {
+    font-weight: 700;
 }
 
 
@@ -489,7 +493,7 @@ section.info p {
     text-align: center;
     padding: 5vh 3vw;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: 0 15px 20px #c1d0ef;
     background-color: #fff;
 }
@@ -712,22 +716,270 @@ div.hr {
     padding-top: 2em;
     padding-bottom: 2em;
     font-weight: 600;
-    
 }
 
 
 /* MEDIA QUERRIES */
 @media (max-width:767.95px) { /*Phones*/
+
+    /* JUMBOTRON */
+    /* .jumbotron {
+
+    } */
+
+    .jumbotron .jumbotron-header{
+    height: 50vh;
+    }
+
+    .jumbotron .jumbotron-header h4 {
+        font-weight: 600;
+        font-size: 0.7em;
+        text-transform: uppercase;
+    }
+
+    .jumbotron .jumbotron-header h3 {
+        font-size: 1em;
+        font-weight: 700;
+    }
+
+    .jumbotron .jumbotron-header p {
+        font-weight: 500;
+        font-size: 0.6em;
+    }
+
+    .jumbotron button span.fa {
+    padding-right: 6px;
+    }
+
+    .jumbotron button {
+        margin-right: 5px;
+        padding: 5px 6px;
+        font-size: 0.7em;
+        font-weight: 500;
+    }
+
+    /* INFO SECTION */
+    section.info {
+        height: 30vh;
+    }
+
     section.info p {
-        box-shadow: 0 0 5px #ccc;
+        padding: 0.4em;
+        text-align: left;
+        font-size: 0.45em;
+        margin-bottom: 0;
     }
-    .returns #amount {
-        width: 100%;
+
+    /* SLIDER */
+    .slider {
+        height: 25vh;
     }
-    .returns #profit {
-        font-size: 1.6em;
+
+    .slider h4 {
+        font-weight: 700;
+        font-size: 0.85em;
+    }
+
+    .slider p {
+        font-weight: 400;
+        font-size: .8em;
+    }
+
+    .slider .carousel-item {
+        height: 7vh;
+    }    
+
+    /* INVESTMENT PLANS */
+    .plans {
+        background: azure;
+        padding: 16vh 3vw;
+    }
+
+    .plans .tile {
+        text-align: center;
+        padding: 0.5em;
+        margin: 0.2em;
+        border-radius: 5px;
+        box-shadow: 0 3px 5px #c1d0ef;
+        background-color: #fff;
+    }
+
+    .plans .col-3 {
         padding-left: 0;
+        padding-right: 0;
     }
+
+    .plans .tile:hover {
+        /* color: #fff; */
+        box-shadow: none;
+    }
+
+    .plans h4 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.65em;
+    }
+
+    .plans p .percentage {
+        padding: 7px;
+        border-radius: 50%;
+        font-size: 0.45em;
+        font-weight: 700;
+    }
+
+    .plans ul li {
+        font-size: 0.6em;
+        font-weight: 500;
+        margin-top: 0.7em;
+    }
+
+    .plans a {
+        font-size: 0.56em;
+    }
+
+    .plans div.hr {
+        margin: 15px 0;
+    }    
+
+
+  /* RETURNS CALCULATOR */
+  .returns .calc {
+    height: 10vh;
+  }
+
+  .returns .calc .fa-calculator {
+    font-size: 2em;
+    /* height: 5vh; */
+  }
+
+  .returns h3 {
+    font-size: .85em;
+    font-weight: 700;
+  }
+
+  .returns label {
+    font-weight: 600;
+    font-size: 0.6em;
+    padding-left: 2px;
+  }
+
+  .returns #amount {
+    padding: 0.45em 0.1em;
+    font-size: .65em;
+    width: 100%;
+    display: block;
+  }
+
+  .returns .col-6 {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
+
+  .returns select {
+    font-size: .5em;
+  }
+
+  .returns .rounded-tile {
+    background-color: azure;
+    padding: .7em;
+    border-radius: 50%;
+  }
+  
+  .returns #profit {
+    font-size: 1.2em;
+    padding-left: 0;
+  }
+
+
+  .returns .rounded-tile h5 {
+    font-size: .5em;
+    text-align: center;
+  }
+
+  .returns .rounded-tile p {
+    margin-bottom: 0;
+    font-size: 0.85em;
+    font-weight: 700;
+  }  
+
+  /* INVESTORS TABLES */
+  .investors {
+    background: #fff;
+    padding: 5em 0;
+  }
+
+  .investors table {
+    border-radius: 5px;
+  }
+
+  .investors table {
+    font-size: .45em;
+  }
+
+  .investors h4 {
+    font-size: .65em;
+    font-weight: 700;
+  }
+
+  /* ADVANTAGES */
+  .advantages {
+    font-size: .5em;
+  }
+
+
+  /* STAFF */
+  .team {
+    padding-bottom: 8em;
+    padding-top: 4em;
+  }
+
+  .team h3 {
+    margin-top: 4vh;
+  }
+
+  .team .tile {
+    padding: 0vh;
+    margin-top: 1em;
+    /* height: 5vh; */
+  }
+
+  .team h5 {
+    margin-top: .6em;
+    font-size: .65em;
+  }
+
+  .team .col-2 {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+  }
+
+  .team p {
+    font-weight: 400;
+    font-size: 0.45em;
+    margin-bottom: 4px;
+  }
+
+  .team .fa-linkedin {
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px #ccc;
+    font-size: .5em;
+    background-color: #748dc0;
+    color: #fff;
+  }  
+
+  /* FOOTER */
+  footer .footer-hny h6 {
+    font-size: .9em;
+    padding: 0.6em 0.2em;
+  }
+
+  footer .footer-hny p {
+    font-size: 0.85em;
+    margin-bottom: 0.3em;
+  }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -735,6 +987,57 @@ div.hr {
     .jumbotron .jumbotron-header{
         height: 45vh;
       }
+
+    /* INVESTMENT PLANS */
+    .plans {
+      background: azure;
+      padding: 16vh 3vw;
+    }
+
+  .plans .tile {
+      text-align: center;
+      padding: 0.5em;
+      margin: 0.2em;
+      border-radius: 5px;
+      box-shadow: 0 3px 5px #c1d0ef;
+      background-color: #fff;
+  }
+
+  .plans .col-3 {
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+  .plans .tile:hover {
+      box-shadow: none;
+  }
+
+  .plans h4 {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.12em;
+  }
+
+  .plans p .percentage {
+      padding: 7px;
+      border-radius: 50%;
+      font-size: 0.75em;
+      font-weight: 700;
+  }
+
+  .plans ul li {
+      font-size: 0.8em;
+      font-weight: 500;
+      margin-top: 0.7em;
+  }
+
+  .plans a {
+      font-size: 0.9em;
+  }
+
+  .plans div.hr {
+      margin: 15px 0;
+  }         
 
 }
 
@@ -744,3 +1047,4 @@ div.hr {
       }
 
 }    
+
