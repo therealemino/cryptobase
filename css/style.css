@@ -1037,7 +1037,26 @@ div.hr {
 
   .plans div.hr {
       margin: 15px 0;
-  }         
+  }      
+  
+    /* RETURNS */
+    .returns .rounded-tile h5 {
+      font-size: .85em;
+      text-align: center;
+    }
+  
+    .returns .rounded-tile p {
+      margin-bottom: 0;
+      font-size: 1.1em;
+      font-weight: 700;
+    }    
+
+    
+  .returns .rounded-tile {
+    background-color: azure;
+    padding: 1em;
+    border-radius: 50%;
+  }
 
 }
 
